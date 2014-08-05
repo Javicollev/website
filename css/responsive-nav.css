@@ -1,0 +1,20 @@
+
+@media screen and (max-width: 768px) {
+.js .nav-collapse {
+position: relative;
+}
+.js .nav-collapse.closed {
+max-height: none;
+}
+.nav-toggle {
+display: none;
+}
+.js .nav-collapse {
+clip: rect(0 0 0 0);
+max-height: 0;
+position: absolute;
+display: block;
+overflow: hidden;
+  
+}
+}

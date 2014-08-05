@@ -1,0 +1,536 @@
+@import "fonts.css"
+@import "redes.css"
+@import "imagenes.css"
+@import "demo.css"
+@import "normalize.css"
+@import "iconos.css"
+
+body
+	whidth 100%
+	margin 0
+	padding 0
+
+
+a.menu
+	display none	
+
+div#arriba
+	background-color ghostwhite
+	display block
+	width 100%
+	
+
+	figure#logo
+		display inline-block
+		margin 3px 0 0 3px
+		vertical-align middle
+
+		img
+			height auto
+			width 250px
+	a.nav-toggle
+		display none
+	nav
+		display inline-block
+		float right
+		position relative
+		right 1%
+		top 15px
+		z-index 1
+
+		ul
+			display block
+			margin 3px 0 0 0
+			padding-left 5px
+			vertical-align middle
+			
+
+
+			li
+				display inline-block
+				list-style none
+				margin 0
+				min-width 60px
+				padding 0
+				text-align center
+
+				
+				
+				ul
+					
+					li
+						border 1px solid white
+						display block
+						left -5px
+						min-width 130px
+						position relative
+						top -3px
+
+
+				a
+					background-color ghostwhite 
+					color steelblue
+					display block
+					font-family 'dosis'
+					font-size 1.2em
+					font-weight bold
+					letter-spacing 0.8px
+					margin 0px
+					padding 0.2em 0.4em 
+					text-decoration none
+					transition all 0.4s ease-in
+
+					&:hover
+						background-color deepskyblue
+						color white
+
+				ul
+					display none
+					position absolute
+					//min-whidth 150px
+
+					li
+						
+						a
+							display block
+
+			li:hover ul
+				display block
+
+section#detalle
+	display inline-block
+	font-family "dosis"
+	padding 2em
+	vertical-align top
+	width 65%
+
+	h1
+		display block
+		text-align center
+		margin 0
+		font-family "dosis"
+		font-size 1.2em
+		color teal
+		//text-transform uppercase
+		//letter-spacing 0.03em
+	div#resumen
+		
+		span
+			display block
+			text-align center
+	figure
+		text-align center
+		img
+			border-radius 8px
+			//border 1px solid grey
+			box-shadow 1px 2px 3px grey
+			margin 5px auto
+
+	div#detalles
+		div.resp-tabs-container
+			div
+				font-size 1.2em
+				color darkcyan
+				text-align justify
+				span
+					display block
+					font-size 1em
+					color darkcyan
+					i
+						padding-right 0.2em
+						color teal
+						
+						font-size 0.8em
+	div#conversion
+		button
+			display block
+			color white
+			font-size 1.2em
+			font-weight bold
+			
+			background-color skyblue
+			padding 0.5em
+			margin 1em auto
+			width 180px
+			text-transform uppercase
+			border-radius 5px
+			text-align center
+			transition all 0.3s ease-in
+
+			&:hover
+				transform scale(1.1, 1)
+				background-color deepskyblue
+				
+	form#reserva
+		display none
+		width 100%
+		text-align center
+		margin 0 auto
+		padding 1em
+		color teal
+		select
+			padding 0.5em
+			color teal
+			border 1px solid teal
+			border-radius 3px
+		input
+			color teal
+			display block
+			margin 0.5em auto
+			padding 0.5em
+			width 300px
+			border 1px solid teal
+			border-radius 3px
+		label
+			color teal
+			display block
+			padding 0.5em
+			font-weight bold
+		textarea
+			color teal
+			display block
+			margin 0 auto
+			width 300px
+			border-radius 3px
+		input[type="submit"]
+			border 0 solid teal
+			display block
+			padding 0.5em
+			width 300px
+			border-radius 3px
+			border-bottom-width 3px
+			background-color skyblue
+			color white
+			font-weight bold
+			text-transform uppercase
+			transition all 0.2s ease-in
+
+			&:hover
+				background-color deepskyblue
+aside
+	vertical-align top
+	background-color ghostwhite
+	display inline-block
+	width 30%
+	margin-top 2em
+	text-align center
+	padding 1em 
+
+	div.fb-like
+		margin-bottom 1em
+		vertical-align top
+		
+	div.g-ytsubscribe
+		vertical-align top
+
+		
+section
+
+	div#portada
+		background-image url('../imagenes/portada.jpg')
+		background-repeat no-repeat
+		height auto
+		margin 0
+		padding 1em 0 0 0
+		width 100%
+		
+	div#formulario
+		background-color rgba(225 225 225 0.5)
+		border-radius 0.5em
+		margin 0 auto
+		padding 1em
+		width  35%
+
+
+		span
+			display block
+			font-family dosis
+			font-size 1.2em
+			line-height 1em
+			text-align justify
+			margin 0 auto
+			color teal
+			-moz-text-shadow 1px 1px 3px white
+			-webkit-text-shadow 1px 1px 3px white
+			-o-text-shadow 1px 1px 3px white
+			text-shadow 1px 1px 3px white
+		form
+			
+			input[type="submit"]
+				background-color #30C0CC
+				border-radius 0.15em 
+				box-shadow 0 0 4px #218997
+				color white
+				font-family "dosis"
+				font-size 1.3em
+				padding 0.3em 0
+				margin 0.5em auto 0 auto
+				text-transform uppercase
+				transition transform 0.2s ease-in
+				width 320px
+
+				&:hover
+					cursor pointer
+					transform rotate(-0.9deg)
+
+			input
+				border solid 1px skyblue
+				border-radius 0.3em
+				font-family dosis
+				font-size 1.2em
+				color teal
+				display block
+				margin 0 auto 0.5em auto
+				padding 0.5em 0.4em
+				width 250px
+
+			
+			label
+				display block
+				color teal
+				font-family "dosis"
+				font-size 1.2em
+				font-weight bold
+				padding 0.5em 0 0 0
+				text-align center
+				-moz-text-shadow 1px 1px 3px white
+				-webkit-text-shadow 1px 1px 3px white
+				-o-text-shadow 1px 1px 3px white
+				text-shadow 1px 1px 3px white
+
+
+	div#img-luquina
+		padding 0.5em 0 0 0
+		
+		width 100%
+		text-align center
+		
+		
+		div.imgs
+			display inline-block
+			padding 0.5em
+			margin 0 auto
+
+			
+
+			img
+				width 200px
+				height 200px
+				border-radius 50%
+				box-shadow 2px 3px 5px black
+				
+footer
+	
+	display inline-block
+	text-align center
+	width 100%
+	
+
+	div#redes-sociales		
+		display inline-block
+		vertical-align top
+		ul
+			padding 0
+			li
+				display inline-block
+				padding 0.5em
+				a
+					text-decoration none
+					font-size 2.5em
+					color teal
+					transition all 0.4s ease
+
+
+				a.icon-Facebook:hover
+					color #3B5998
+
+				a.icon-Twitter:hover
+					color #0080A6
+					
+				a.icon-Youtube:hover
+					color #a52a2a
+				a.icon-Instagram:hover
+					color #1f1c1c
+	
+	div#nosotros
+		display inline-block
+		vertical-align top
+		ul
+			padding 0
+			li
+				display inline-block
+				font-family "dosis"
+				font-size 1.2em
+				padding 0.5em
+				
+				
+				a
+					text-decoration none
+					color teal
+
+					
+	div#info
+		display block
+		
+		span
+			display inline-block
+			padding 0 1em
+			text-align right
+			font-family "dosis"
+			color teal
+
+				
+@media screen and (max-width:786px)
+	div#arriba
+		display block
+		
+		figure#logo
+
+			img
+				height auto
+				width 250px
+		
+		a.nav-toggle 
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			width: 50px;
+			height: 50px;
+			float: right;
+			text-indent: -9999px;
+			overflow: hidden;
+			display: inline-block;
+			margin 5px 5px 0 0 
+			background: url("../imagenes/menu.svg") no-repeat ;	
+			
+		nav.nav-collapse 
+			ul 
+				ul 
+					a 
+						display: none;
+		  
+		
+		nav.nav-collapse 
+			ul 
+				list-style: none;
+				width: 100%;
+				float: left;
+		
+
+		nav.nav-collapse 
+			li 
+				float: left;
+				width: 100%;
+		
+		
+		
+	.js .nav-collapse 
+		position: relative;
+
+	.js .nav-collapse.closed 
+		max-height: none;
+
+
+
+
+	.js .nav-collapse 
+		clip: rect(0 0 0 0);
+		max-height: 0;
+		position: relative;
+		display: block;
+		overflow: hidden;
+			  
+	section#detalle
+		width 100%
+		padding 0
+		figure
+			img
+				width 98%
+		form#reserva
+		
+			input
+				width 95%
+
+			textarea
+				width 95%
+			input[type="submit"]
+				width 95%
+				
+
+
+	section		
+		div#portada
+			position relative
+
+				
+		div#formulario
+			width  85%
+			span
+					color darkcyan
+					font-size 1.2em
+			form
+				
+				label
+					color teal
+					font-weight bold
+					padding 0
+					margin 0
+
+				input[type="submit"]
+					width 260px
+					font-size 1em
+					margin 0 auto
+		
+
+		div#img-luquina	
+			div.imgs
+				img
+					width 270px
+					height 270px
+					border 0
+
+	
+@media screen and (max-width:985px)
+	section#detalle
+		width 100%
+
+	aside
+		width 100%
+
+	section
+		div#formulario
+			
+			form
+
+				input[type="submit"]
+					width 260px
+					font-size 1em
+					margin 0 auto
+		div#img-luquina	
+			div.imgs
+				img
+					width 270px
+					height 270px
+					border 0
+
+@media screen and (max-width:360px)
+	div#arriba
+		figure#logo
+			img
+				position relative
+				left 5px
+				width 200px
+				height auto
+
+	section#detalle
+		
+		form#reserva
+			input
+				width 100%
+			textarea
+				width 100%
+			input[type="submit"]
+				width 100%
+				

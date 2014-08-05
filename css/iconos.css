@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-oc5llm');
+	src:url('../fonts/icomoon.eot?#iefix-oc5llm') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-oc5llm') format('woff'),
+		url('fonts/icomoon.ttf?-oc5llm') format('truetype'),
+		url('../fonts/icomoon.svg?-oc5llm#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Itinerario:before {
+	content: "\e605";
+}
+.icon-Facebook:before {
+	content: "\e600";
+}
+.icon-Googleplus:before {
+	content: "\e601";
+}
+.icon-Instagram:before {
+	content: "\e602";
+}
+.icon-Twitter:before {
+	content: "\e603";
+}
+.icon-Youtube:before {
+	content: "\e604";
+}
+.icon-Precio:before {
+	content: "\e606";
+}
+.icon-Ubicacion:before {
+	content: "\e607";
+}
+.icon-Duracion:before {
+	content: "\e608";
+}
+.icon-Incluye:before {
+	content: "\e609";
+}
+.icon-No-incluye:before {
+	content: "\e60a";
+}
+.icon-Recomendaciones:before {
+	content: "\e60b";
+}
